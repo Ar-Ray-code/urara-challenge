@@ -53,7 +53,9 @@ python3 tools/demo.py video -n yolox-x -c ./yolox_x.pth --path ./video.mp4 --con
 </details>
  
 <details><summary>対象レース</summary>
-  
+
+主にG1を対象とする。
+
 - [x] ?
   
 </details>
