@@ -22,26 +22,43 @@ cd YOLOX/
 python3 tools/demo.py video -n yolox-x -c ./yolox_x.pth --path ./video.mp4 --conf 0.25 --nms 0.45 --tsize 640 --save_result --device gpu
 ```
 
-## 対象（既に取得済のものにxを付けています）
+## 対象
 
  <details><summary>対象キャラ</summary>
-  
-- [x] サクラバクシンオー
-- [x] ハルウララ
-  
+
+※取得済のもののみ表示・星3なし
+ 
+- ハルウララ  
+- サクラバクシンオー
+- ゴールドシップ
+- ダイワスカーレット
+- ウォッカ
+- グラスワンダー
+- エルコンドルパサー
+- エアグルーヴ
+- マヤノトップガン
+- スーパークリーク
+- メジロライアン
+- アグネスタキオン
+- マチカネフクキタル
+- ナイスネイチャ
+- キングヘイロー
+
 </details>
 
 <details><summary>対象ライブ</summary>
-  
+
+※既に取得済のものにxを付けています
+
 - [x] Make Debut!
-- [ ] ENDLESS DREAM!!
-- [ ] 彩 Phantasia
-- [ ] winnning the soul
+- [x] ENDLESS DREAM!!
+- [x] 彩 Phantasia
+- [x] winnning the soul
 - [ ] 本能スピード
-- [ ] UNLIMITED IMPACT
-- [ ] NEXT FRONTIER
-- [ ] Special Record!
-- [ ] うまぴょい伝説 
+- [x] UNLIMITED IMPACT
+- [x] NEXT FRONTIER
+- [x] Special Record!
+- [x] うまぴょい伝説 
 - [ ] はじまりのSignal
 - [ ] ささやかな祈り
 - [ ] 涙ひかって明日になれ！
@@ -49,6 +66,7 @@ python3 tools/demo.py video -n yolox-x -c ./yolox_x.pth --path ./video.mp4 --con
 - [ ] BLAZE
 - [ ] Never Looking Back
 - [ ] WINnin’5 -ウイニング☆ファイヴ-
+- [x] ぴょいっと♪はれるや！
   
 </details>
  
