@@ -54,7 +54,7 @@ python3 tools/demo.py video -n yolox-x -c ./yolox_x.pth --path ./video.mp4 --con
 - [x] ENDLESS DREAM!!
 - [x] 彩 Phantasia
 - [x] winnning the soul
-- [ ] 本能スピード
+- [] 本能スピード
 - [x] UNLIMITED IMPACT
 - [x] NEXT FRONTIER
 - [x] Special Record!
