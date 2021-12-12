@@ -18,7 +18,12 @@
 ## 実行コマンド
 
 ```
+git clone https://github.com/Megvii-BaseDetection/YOLOX.git
 cd YOLOX/
+pip3 install -U pip && pip3 install -r requirements.txt
+pip3 install -v -e . 
+pip3 install cython; pip3 install 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'
+
 python3 tools/demo.py video -n yolox-x -c ./yolox_x.pth --path ./video.mp4 --conf 0.25 --nms 0.45 --tsize 640 --save_result --device gpu
 ```
 
