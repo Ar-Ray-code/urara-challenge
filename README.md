@@ -83,4 +83,14 @@ python3 tools/demo.py video -n yolox-x -c ./yolox_x.pth --path ./video.mp4 --con
   
 </details>
  
-## 
+## Run Dockerfile
+
+```bash
+docker build . -t urarachallenge
+docker run --rm -it \
+  --runtime nvidia \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
+  -v $VIDEO_MP4_PATH:/workspace/target.mp4 \
+  -v $VIDEO_CSV_PATH:/workspace/target.csv \
+  urarachallenge /bin/bash ./challenge.bash
+```
