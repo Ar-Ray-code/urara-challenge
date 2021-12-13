@@ -15,7 +15,7 @@
 - GPU：NVIDIA GeForce RTX 2080Ti
 - RAM：64GB
 
-## 実行コマンド
+## 実行コマンド（ローカルでの実行）
 
 ```
 git clone https://github.com/Megvii-BaseDetection/YOLOX.git
@@ -31,7 +31,7 @@ python3 tools/demo.py video -n yolox-x -c ./yolox_x.pth --path ./video.mp4 --con
 
  <details><summary>対象キャラ</summary>
 
-※取得済のもののみ表示・星3なし
+※取得済のもののみ表示
  
 - ハルウララ  
 - サクラバクシンオー
@@ -48,12 +48,20 @@ python3 tools/demo.py video -n yolox-x -c ./yolox_x.pth --path ./video.mp4 --con
 - マチカネフクキタル
 - ナイスネイチャ
 - キングヘイロー
+- トウカイテイオー（通常衣装）
 
 </details>
 
 <details><summary>対象ライブ</summary>
 
 ※既に取得済のものにxを付けています
+
+現在、対象ライブを検討中
+
+- ポジション
+ - センター：ハルウララ
+ - ライト　：マヤノトップガン
+ - レフト　：トウカイテイオー（通常衣装）
 
 - [x] Make Debut!
 - [x] ENDLESS DREAM!!
@@ -77,7 +85,7 @@ python3 tools/demo.py video -n yolox-x -c ./yolox_x.pth --path ./video.mp4 --con
  
 <details><summary>対象レース</summary>
 
-主にG1を対象とする。
+芝・ダート・右回り・左回りなどの条件を確認中
 
 - [x] ?
   
