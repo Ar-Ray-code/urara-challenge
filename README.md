@@ -1,5 +1,5 @@
 # urara-test
-ハルウララ（ウマ娘）のテスト結果とその証拠になるDockerfileです。
+ハルウララ（ウマ娘）のテスト結果とその証拠になるDockerfileです。現時点ではドキュメントの編集が中心なのでDockerファイルを使うことはおすすめしません。
 
 ## 検証環境
 
@@ -94,3 +94,9 @@ docker run --rm -it \
   -v $VIDEO_CSV_PATH:/workspace/target.csv \
   urarachallenge /bin/bash ./challenge.bash
 ```
+
+## 貢献について
+
+気になる箇所やモデルについての検証結果やリクエストなどがあれば歓迎します。
+
+issue欄や[Twitter](https://twitter.com/Ray255Ar)などで教えてください。

@@ -1,0 +1,1 @@
+python3 tools/demo.py video -n yolox-x -c ./target.pth --path ./target.mp4 --conf 0.25 --nms 0.45 --tsize 640 --save_result --device gpu
