@@ -59,9 +59,9 @@ python3 tools/demo.py video -n yolox-x -c ./yolox_x.pth --path ./video.mp4 --con
 現在、対象ライブを検討中
 
 - ポジション
- - センター：ハルウララ
- - ライト　：マヤノトップガン
- - レフト　：トウカイテイオー（通常衣装）
+  - センター：ハルウララ
+  - ライト　：マヤノトップガン
+  - レフト　：トウカイテイオー（通常衣装）
 
 - [x] Make Debut!
 - [x] ENDLESS DREAM!!
