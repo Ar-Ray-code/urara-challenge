@@ -1,5 +1,7 @@
-# urara-test
-ハルウララ（ウマ娘）のテスト結果とその証拠になるDockerfileです。現時点ではドキュメントの編集が中心なのでDockerファイルを使うことはおすすめしません。
+# urara-challenge
+ハルウララ（ウマ娘）のテスト結果とその証拠になるDockerfileです。
+
+※現時点ではドキュメントの編集が中心なのでDockerファイルを使うことはおすすめしません。
 
 ![](images_for_readme/urara-example.png)
 
@@ -35,7 +37,7 @@ python3 tools/demo.py video -n yolox-x -c ./yolox_x.pth --path ./video.mp4 --con
 
 ※取得済のもののみ表示
  
-- ハルウララ  
+- ハルウララ（頑張って勝負服を手に入れます）
 - サクラバクシンオー
 - ゴールドシップ
 - ダイワスカーレット
