@@ -1,6 +1,8 @@
 # urara-test
 ハルウララ（ウマ娘）のテスト結果とその証拠になるDockerfileです。現時点ではドキュメントの編集が中心なのでDockerファイルを使うことはおすすめしません。
 
+![](images_for_readme/urara-example.png)
+
 ## 検証環境
 
 - [YOLOX-x](https://github.com/Megvii-BaseDetection/YOLOX)
