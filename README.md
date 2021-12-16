@@ -104,7 +104,9 @@ docker run --rm -it \
 
 ## 検出例
 
-### UNLIMITED IMPACT
+### UNLIMITED IMPACT（画像をクリックでYouTubeのリンクに飛びます）
+
+検出結果：未
 
  [![UNLIMITED IMPACT](http://img.youtube.com/vi/AvsvLLgowQg/0.jpg)](https://www.youtube.com/watch?v=AvsvLLgowQg)
 
