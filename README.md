@@ -70,7 +70,7 @@ python3 tools/demo.py video -n yolox-x -c ./yolox_x.pth --path ./video.mp4 --con
 - [x] [UNLIMITED IMPACT](https://www.youtube.com/watch?v=AvsvLLgowQg)
 - [x] NEXT FRONTIER
 - [x] Special Record!
-- [x] うまぴょい伝説 
+- [x] [うまぴょい伝説](https://youtu.be/Ol8nYpTHX4c)
 - [x] はじまりのSignal
 - [x] ささやかな祈り
 - [ ] 涙ひかって明日になれ！
@@ -102,13 +102,17 @@ docker run --rm -it \
   urarachallenge /bin/bash ./challenge.bash
 ```
 
-## 検出例
+## 検出例（画像をクリックでYouTubeのリンクに飛びます）
 
-### UNLIMITED IMPACT（画像をクリックでYouTubeのリンクに飛びます）
+### UNLIMITED IMPACT
 
 検出結果：未
 
  [![UNLIMITED IMPACT](http://img.youtube.com/vi/AvsvLLgowQg/0.jpg)](https://www.youtube.com/watch?v=AvsvLLgowQg)
+ 
+### うまぴょい伝説
+
+[![うまぴょい伝説](http://img.youtube.com/vi/Ol8nYpTHX4c/0.jpg)](https://www.youtube.com/watch?v=Ol8nYpTHX4c)
 
 ## 貢献について
 
