@@ -62,27 +62,22 @@ python3 tools/demo.py video -n yolox-x -c ./yolox_x.pth --path ./video.mp4 --con
 
 現在、対象ライブを検討中
 
-- ポジション
-  - センター：ハルウララ
-  - ライト　：マヤノトップガン
-  - レフト　：トウカイテイオー（通常衣装）
-
 - [x] Make Debut!
 - [x] ENDLESS DREAM!!
 - [x] 彩 Phantasia
 - [x] winnning the soul
 - [x] 本能スピード
-- [x] UNLIMITED IMPACT
+- [x] [UNLIMITED IMPACT](https://www.youtube.com/watch?v=AvsvLLgowQg)
 - [x] NEXT FRONTIER
 - [x] Special Record!
 - [x] うまぴょい伝説 
-- [ ] はじまりのSignal
-- [ ] ささやかな祈り
+- [x] はじまりのSignal
+- [x] ささやかな祈り
 - [ ] 涙ひかって明日になれ！
-- [ ] ユメヲカケル！
+- [x] ユメヲカケル！
 - [ ] BLAZE
 - [ ] Never Looking Back
-- [ ] WINnin’5 -ウイニング☆ファイヴ-
+- [x] WINnin’5 -ウイニング☆ファイヴ-
 - [x] ぴょいっと♪はれるや！
   
 </details>
@@ -106,6 +101,12 @@ docker run --rm -it \
   -v $VIDEO_CSV_PATH:/workspace/target.csv \
   urarachallenge /bin/bash ./challenge.bash
 ```
+
+## 検出例
+
+### UNLIMITED IMPACT
+
+ [![UNLIMITED IMPACT](http://img.youtube.com/vi/AvsvLLgowQg/0.jpg)](https://www.youtube.com/watch?v=AvsvLLgowQg)
 
 ## 貢献について
 
