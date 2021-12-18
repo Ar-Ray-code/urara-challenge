@@ -7,6 +7,7 @@
 
 ## 検証環境
 
+- [darknet-YOLOv4-csp](https://github.com/Ar-Ray-code/darknet/tree/export-video)：改造しているためリンクはAr-Ray-codeのリポジトリに飛びます。
 - [YOLOX-x](https://github.com/Megvii-BaseDetection/YOLOX)
 - ウィニングライブ（対象のキャラクターはセンターであること）
 - レース（対象のキャラクターは1着であること）
