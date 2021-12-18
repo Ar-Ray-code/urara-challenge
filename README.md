@@ -37,12 +37,12 @@ python3 tools/demo.py video -n yolox-x -c ./yolox_x.pth --path ./video.mp4 --con
 
 ※取得済のもののみ表示
  
-- ハルウララ（頑張って勝負服を手に入れます）
+- ハルウララ（頑張って勝負服を手に入れま<del>す</del>した）
 - サクラバクシンオー
 - ゴールドシップ
 - ダイワスカーレット
 - ウォッカ
-- グラスワンダー
+- グラスワンダー（星3）
 - エルコンドルパサー
 - エアグルーヴ
 - マヤノトップガン
@@ -53,6 +53,7 @@ python3 tools/demo.py video -n yolox-x -c ./yolox_x.pth --path ./video.mp4 --con
 - ナイスネイチャ
 - キングヘイロー
 - トウカイテイオー（通常衣装）
+- マルゼンスキー
 
 </details>
 
