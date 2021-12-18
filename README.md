@@ -1,4 +1,4 @@
-# urara-challenge
+# urara-challenge（ウララ検出チャレンジ）
 ハルウララ（ウマ娘）のテスト結果とその証拠になるDockerfileです。
 
 ※現時点ではドキュメントの編集が中心なのでDockerファイルを使うことはおすすめしません。
