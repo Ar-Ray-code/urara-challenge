@@ -114,6 +114,10 @@ docker run --rm -it \
 
 [![うまぴょい伝説](http://img.youtube.com/vi/Ol8nYpTHX4c/0.jpg)](https://www.youtube.com/watch?v=Ol8nYpTHX4c)
 
+## 検出結果
+
+- Dockerfileの作成と特定のキャラクター追跡ができ次第取り組みます。2022年以降になりそうです。
+
 ## 貢献について
 
 気になる箇所やモデルについての検証結果やリクエストなどがあれば歓迎します。
