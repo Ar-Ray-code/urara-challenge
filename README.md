@@ -93,6 +93,8 @@ python3 tools/demo.py video -n yolox-x -c ./yolox_x.pth --path ./video.mp4 --con
  
 ## Run Dockerfile
 
+以下のDockerfileはでは動きません。（12/17日時点）
+
 ```bash
 docker build . -t urarachallenge
 docker run --rm -it \
