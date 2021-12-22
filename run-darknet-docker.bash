@@ -21,11 +21,14 @@ cp $CFG $SCRIPT_DIR/target-dir/target.cfg
 cp $WEIGHTS $SCRIPT_DIR/target-dir/target.weights
 
 docker build -t yolov4csp -f Dockerfile-yolov4csp ./
-docker run -it --rm --runtime nvidia -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --mount type=bind,source=$(pwd)/target-dir,target=/workspace/target-dir yolov4csp /bin/bash ./target-dir/darknet-ros-docker.bash
+docker run --rm --runtime nvidia -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --mount type=bind,source=$(pwd)/target-dir,target=/workspace/target-dir yolov4csp /bin/bash ./target-dir/darknet-ros-docker.bash
 sudo chown -R $USER:$USER target-dir/predictions.avi
+echo "====================================="
 ffmpeg -i target-dir/predictions.avi -i target-dir/target.wav -c:v copy -c:a aac -strict experimental target-dir/predictions.mp4
 TIME_STAMP=$(date +%s)
 mv target-dir/predictions.mp4 target-dir/output-$TIME_STAMP.mp4
 rm target-dir/target.avi
 rm target-dir/target.wav
 rm target-dir/predictions.avi
+rm target-dir/target.cfg
+rm target-dir/target.weights
