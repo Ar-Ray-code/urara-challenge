@@ -1,0 +1,3 @@
+[submodule "select-file-folder-dialog"]
+	path = select-file-folder-dialog
+	url = git@github.com:Ar-Ray-code/select-file-folder-dialog.git

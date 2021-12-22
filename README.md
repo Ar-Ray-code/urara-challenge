@@ -28,7 +28,9 @@
 ```
 git clone https://github.com/Ar-Ray-code/urara-challenge.git
 cd urara-challenge/
-bash yolov4-scp.bash
+wget https://raw.githubusercontent.com/AlexeyAB/darknet/master/cfg/yolov4-csp.cfg
+wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-csp.weights
+bash run-darknet-docker.bash
 ```
 
 ## 対象

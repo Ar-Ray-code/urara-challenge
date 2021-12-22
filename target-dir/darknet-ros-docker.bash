@@ -1,4 +1,4 @@
 cd darknet/
-./darknet detector demo cfg/coco.data cfg/yolov4-csp.cfg ../target-dir/yolov4-csp.weights ../target-dir/dart_lastspart-1080p.mp4
-cp predictions.avi ../target-dir/
-
+./darknet detector demo cfg/coco.data ../target-dir/target.cfg ../target-dir/target.weights ../target-dir/target.avi
+# add unixtime
+cp predictions.avi ../target-dir/predictions.avi
