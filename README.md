@@ -1,8 +1,6 @@
 # urara-challenge（ウララ検出チャレンジ）
 ハルウララ（ウマ娘）のテスト結果とその証拠になるDockerfileです。
 
-※現時点ではドキュメントの編集が中心なのでDockerファイルを使うことはおすすめしません。
-
 ![](images_for_readme/urara-example.png)
 
 ## 検証環境
@@ -16,7 +14,7 @@
 
 <del>※検出率の実験であるため、コンピュータ性能に左右されません。</del>
 
-おまたせました！Dockerfileが使えます。
+おまたせました！Dockerfileが使えるようになりました。
 
 - CPU：Intel Core i9 12900KF
 - GPU：NVIDIA GeForce RTX 2080Ti
@@ -39,7 +37,7 @@ bash run-darknet-docker.bash
  <details><summary>対象キャラ</summary>
 
 ※取得済のもののみ表示
- 
+
 - ハルウララ（頑張って勝負服を手に入れま<del>す</del>した）
 - サクラバクシンオー
 - ゴールドシップ
@@ -84,28 +82,30 @@ bash run-darknet-docker.bash
 - [x] WINnin’5 -ウイニング☆ファイヴ-
 - [x] ぴょいっと♪はれるや！
   
+
 </details>
- 
+
 <details><summary>対象レース</summary>
 
 芝・ダート・右回り・左回りなどの条件を確認中
 
 - [x] ?
   
+
 </details>
- 
+
 ## Run Dockerfile
 
-以下のDockerfileはでは動きません。（12/17日時点）
+（12月22日）動きます。NVIDIA RTX Graphics Boardを使用してください。
 
 ```bash
 docker build . -t urarachallenge
-docker run --rm -it \
-  --runtime nvidia \
-  -v /tmp/.X11-unix:/tmp/.X11-unix \
-  -v $VIDEO_MP4_PATH:/workspace/target.mp4 \
-  -v $VIDEO_CSV_PATH:/workspace/target.csv \
-  urarachallenge /bin/bash ./challenge.bash
+docker run --rm \
+	--runtime nvidia \
+	-e DISPLAY=$DISPLAY \
+	-v /tmp/.X11-unix:/tmp/.X11-unix \
+	--mount type=bind,source=$(pwd)/target-dir,target=/workspace/target-dir \
+	yolov4csp /bin/bash ./target-dir/darknet-ros-docker.bash
 ```
 
 ## 検出例（画像をクリックでYouTubeのリンクに飛びます）
@@ -115,7 +115,7 @@ docker run --rm -it \
 検出結果：未
 
  [![UNLIMITED IMPACT](http://img.youtube.com/vi/AvsvLLgowQg/0.jpg)](https://www.youtube.com/watch?v=AvsvLLgowQg)
- 
+
 ### うまぴょい伝説
 
 [![うまぴょい伝説](http://img.youtube.com/vi/Ol8nYpTHX4c/0.jpg)](https://www.youtube.com/watch?v=Ol8nYpTHX4c)
