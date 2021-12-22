@@ -12,15 +12,15 @@
 
 ## コンピュータ
 
-<del>※検出率の実験であるため、コンピュータ性能に左右されません。</del>
-
-おまたせました！Dockerfileが使えるようになりました。
+※検出率の実験であるため、コンピュータ性能に左右されません。
 
 - CPU：Intel Core i9 12900KF
 - GPU：NVIDIA GeForce RTX 2080Ti
 - RAM：64GB
 
 ## YOLOv4-scpのDockerfileの実行
+
+おまたせました！Dockerfileが使えるようになりました。
 
 ※NVIDIA-Dockerの最新版を使用してください。
 
