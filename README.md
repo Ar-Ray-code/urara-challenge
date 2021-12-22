@@ -13,22 +13,22 @@
 
 ## コンピュータ
 
-※検出率の実験であるため、コンピュータ性能に左右されません。
+<del>※検出率の実験であるため、コンピュータ性能に左右されません。</del>
+
+おまたせました！Dockerfileが使えます。
 
 - CPU：Intel Core i9 12900KF
 - GPU：NVIDIA GeForce RTX 2080Ti
 - RAM：64GB
 
-## 実行コマンド（ローカルでの実行）
+## YOLOv4-scpのDockerfileの実行
+
+※NVIDIA-Dockerの最新版を使用してください。
 
 ```
-git clone https://github.com/Megvii-BaseDetection/YOLOX.git
-cd YOLOX/
-pip3 install -U pip && pip3 install -r requirements.txt
-pip3 install -v -e . 
-pip3 install cython; pip3 install 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'
-
-python3 tools/demo.py video -n yolox-x -c ./yolox_x.pth --path ./video.mp4 --conf 0.25 --nms 0.45 --tsize 640 --save_result --device gpu
+git clone https://github.com/Ar-Ray-code/urara-challenge.git
+cd urara-challenge/
+bash yolov4-scp.bash
 ```
 
 ## 対象
