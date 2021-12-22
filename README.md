@@ -1,4 +1,4 @@
-# urara-challenge
+# urara-challenge（ウララ検出チャレンジ）
 ハルウララ（ウマ娘）のテスト結果とその証拠になるDockerfileです。
 
 ※現時点ではドキュメントの編集が中心なのでDockerファイルを使うことはおすすめしません。
@@ -7,6 +7,7 @@
 
 ## 検証環境
 
+- [darknet-YOLOv4-csp](https://github.com/Ar-Ray-code/darknet/tree/export-video)：改造しているためリンクはAr-Ray-codeのリポジトリに飛びます。
 - [YOLOX-x](https://github.com/Megvii-BaseDetection/YOLOX)
 - ウィニングライブ（対象のキャラクターはセンターであること）
 - レース（対象のキャラクターは1着であること）
@@ -39,12 +40,12 @@ bash run-darknet-docker.bash
 
 ※取得済のもののみ表示
  
-- ハルウララ（頑張って勝負服を手に入れます）
+- ハルウララ（頑張って勝負服を手に入れま<del>す</del>した）
 - サクラバクシンオー
 - ゴールドシップ
 - ダイワスカーレット
 - ウォッカ
-- グラスワンダー
+- グラスワンダー（星3）
 - エルコンドルパサー
 - エアグルーヴ
 - マヤノトップガン
@@ -55,6 +56,7 @@ bash run-darknet-docker.bash
 - ナイスネイチャ
 - キングヘイロー
 - トウカイテイオー（通常衣装）
+- マルゼンスキー
 
 </details>
 
@@ -94,6 +96,8 @@ bash run-darknet-docker.bash
  
 ## Run Dockerfile
 
+以下のDockerfileはでは動きません。（12/17日時点）
+
 ```bash
 docker build . -t urarachallenge
 docker run --rm -it \
@@ -115,6 +119,32 @@ docker run --rm -it \
 ### うまぴょい伝説
 
 [![うまぴょい伝説](http://img.youtube.com/vi/Ol8nYpTHX4c/0.jpg)](https://www.youtube.com/watch?v=Ol8nYpTHX4c)
+
+収集予定（Make Debut!）
+
+- [x] ハルウララ
+
+<!-- ### スピカ（アニメ）
+
+- [ ] スペシャルウィーク
+- [ ] サイレンススズカ
+- [x] トウカイテイオー
+- [ ] メジロマックイーン
+- [ ] ウォッカ
+- [ ] ダイワスカーレット
+
+- [ ] セイウンスカイ
+- [x] グラスワンダー
+- [x] マルゼンスキー
+- [ ] エルコンドルパサー
+- [ ] オグリキャップ
+- [ ] ライスシャワー
+- [ ] ミホノブルボン
+- [ ] その他星3...
+ -->
+## 検出結果
+
+- Dockerfileの作成と特定のキャラクター追跡ができ次第取り組みます。2022年以降になりそうです。
 
 ## 貢献について
 
