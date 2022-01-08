@@ -7,6 +7,7 @@
 
 - [darknet-YOLOv4-csp](https://github.com/Ar-Ray-code/darknet/tree/export-video)：改造しているためリンクはAr-Ray-codeのリポジトリに飛びます。
 - [YOLOX-x](https://github.com/Megvii-BaseDetection/YOLOX)
+- [yolov5](https://github.com/ultralytics/yolov5)
 - ウィニングライブ（対象のキャラクターはセンターであること）
 - レース（対象のキャラクターは1着であること）
 
@@ -36,25 +37,7 @@ bash run-darknet-docker.bash
 
  <details><summary>対象キャラ</summary>
 
-※取得済のもののみ表示
-
-- ハルウララ（頑張って勝負服を手に入れま<del>す</del>した）
-- サクラバクシンオー
-- ゴールドシップ
-- ダイワスカーレット
-- ウォッカ
-- グラスワンダー（星3）
-- エルコンドルパサー
-- エアグルーヴ
-- マヤノトップガン
-- スーパークリーク
-- メジロライアン
-- アグネスタキオン
-- マチカネフクキタル
-- ナイスネイチャ
-- キングヘイロー
-- トウカイテイオー（通常衣装）
-- マルゼンスキー
+全て。[動画提供についてはこちらから](https://github.com/Ar-Ray-code/urara-challenge/wiki/動画のレギュレーション)。
 
 </details>
 
@@ -75,10 +58,10 @@ bash run-darknet-docker.bash
 - [x] [うまぴょい伝説](https://youtu.be/Ol8nYpTHX4c)
 - [x] はじまりのSignal
 - [x] ささやかな祈り
-- [ ] 涙ひかって明日になれ！
+- [x] 涙ひかって明日になれ！
 - [x] ユメヲカケル！
-- [ ] BLAZE
-- [ ] Never Looking Back
+- [x] BLAZE
+- [x] Never Looking Back
 - [x] WINnin’5 -ウイニング☆ファイヴ-
 - [x] ぴょいっと♪はれるや！
   
@@ -124,31 +107,21 @@ docker run --rm \
 
 [![ユメヲカケル!](http://img.youtube.com/vi/DvbPyekjQq8/0.jpg)](https://www.youtube.com/watch?v=DvbPyekjQq8)
 
-収集予定（Make Debut!）
 
-- [x] ハルウララ
 
-<!-- ### スピカ（アニメ）
-
-- [ ] スペシャルウィーク
-- [ ] サイレンススズカ
-- [x] トウカイテイオー
-- [ ] メジロマックイーン
-- [ ] ウォッカ
-- [ ] ダイワスカーレット
-
-- [ ] セイウンスカイ
-- [x] グラスワンダー
-- [x] マルゼンスキー
-- [ ] エルコンドルパサー
-- [ ] オグリキャップ
-- [ ] ライスシャワー
-- [ ] ミホノブルボン
-- [ ] その他星3...
- -->
 ## 検出結果
 
 - Dockerfileの作成と特定のキャラクター追跡ができ次第取り組みます。2022年以降になりそうです。
+
+### GradCAM
+
+yolov5+pytorch-grad-camの組み合わせによる解析結果。以下の画像はアウトプットを手動合成したものになります。
+
+参考リポジトリ：https://github.com/pooya-mohammadi/yolov5-gradcam
+
+![heatmap06-uma](images_for_readme/heatmap-yolov5/heatmap.png)
+
+
 
 ## 貢献について
 
