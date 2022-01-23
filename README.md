@@ -1,9 +1,13 @@
 # urara-challenge（ウララ検出チャレンジ）
 ハルウララ（ウマ娘）のテスト結果とその証拠になるDockerfileです。
 
-![](images_for_readme/urara-example.png)
+![urara_challenge](C:\Users\DaichiArai\Documents\github\urara-challenge\images_for_readme\urara_challenge.png)
+
+### ニコニコ動画
 
 [ウマ娘はAI的に馬？人間？の検証（ハルウララのシニア有馬記念1着攻略解説あり）-ニコニコ動画](https://nico.ms/sm39930385)
+
+
 
 ## 検証環境
 
