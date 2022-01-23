@@ -1,7 +1,9 @@
 # urara-challenge（ウララ検出チャレンジ）
 ハルウララ（ウマ娘）のテスト結果とその証拠になるDockerfileです。
 
-![urara_challenge](images_for_readme/urara_challenge.png)
+[![urara_challenge](images_for_readme/urara_challenge.png)](https://nico.ms/sm39930385)
+
+↑画像をクリックするとニコニコ動画のURLに飛びます。
 
 ### ニコニコ動画
 
