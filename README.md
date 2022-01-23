@@ -3,6 +3,8 @@
 
 ![](images_for_readme/urara-example.png)
 
+[ウマ娘はAI的に馬？人間？の検証（ハルウララのシニア有馬記念1着攻略解説あり）-ニコニコ動画](https://nico.ms/sm39930385)
+
 ## 検証環境
 
 - [darknet-YOLOv4-csp](https://github.com/Ar-Ray-code/darknet/tree/export-video)：改造しているためリンクはAr-Ray-codeのリポジトリに飛びます。
