@@ -27,19 +27,6 @@
 - GPU：NVIDIA GeForce RTX 2080Ti
 - RAM：64GB
 
-<!-- ## YOLOv4-scpのDockerfileの実行
-
-おまたせました！Dockerfileが使えるようになりました。
-
-※NVIDIA-Dockerの最新版を使用してください。
-
-```
-git clone https://github.com/Ar-Ray-code/urara-challenge.git
-cd urara-challenge/
-wget https://raw.githubusercontent.com/AlexeyAB/darknet/master/cfg/yolov4-csp.cfg
-wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-csp.weights
-bash run-darknet-docker.bash
-``` -->
 
 ## 対象
 
@@ -81,7 +68,6 @@ bash run-darknet-docker.bash
 芝・ダート・右回り・左回りなどの条件を確認中
 
 - [x] 京都 芝 晴れ
-  
 
 </details>
 
@@ -119,11 +105,8 @@ docker run --rm \
 
 ## ウマ娘ごとの検出結果
 
-[urarachallenge_analyzer (GitHub)](https://github.com/Ar-Ray-code/urarachallenge_analyzer)
+[urarachallenge_analyzer](GitHub)
 
-![](https://raw.githubusercontent.com/Ar-Ray-code/urarachallenge_analyzer/main/iamges_for_readme/pichart-spe.png?token=GHSAT0AAAAAABMFTEZKE5PFUPNRASPVS3K4YQP3J6A)
-
-<div align="center">出力された円グラフ</div>
 
 
 ## 検出結果
