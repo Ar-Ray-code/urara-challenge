@@ -121,7 +121,7 @@ docker run --rm \
 
 [urarachallenge_analyzer (GitHub)](https://github.com/Ar-Ray-code/urarachallenge_analyzer)
 
-![](https://raw.githubusercontent.com/Ar-Ray-code/urarachallenge_analyzer/main/iamges_for_readme/pichart-spe.png?token=GHSAT0AAAAAABMFTEZLKGQJYKWU26SQNJ5QYQP3FFA)
+![](https://raw.githubusercontent.com/Ar-Ray-code/urarachallenge_analyzer/main/iamges_for_readme/pichart-spe.png?token=GHSAT0AAAAAABMFTEZKE5PFUPNRASPVS3K4YQP3J6A)
 
 <div align="center">出力された円グラフ</div>
 
