@@ -92,7 +92,7 @@
 
 ## ウマ娘ごとの検出結果
 
-[urarachallenge_analyzer](GitHub)
+GitHub：[urarachallenge_analyzer](https://github.com/Ar-Ray-code/urarachallenge_analyzer)
 
 ![uma-person-rank](images_for_readme/1st-result/uma-person-rank.jpeg)
 
