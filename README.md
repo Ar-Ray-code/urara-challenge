@@ -31,8 +31,9 @@
 ## 対象
 
  <details><summary>対象キャラ</summary>
-
 全て。[動画提供についてはこちらから](https://github.com/Ar-Ray-code/urara-challenge/wiki/動画のレギュレーション)。
+
+![target](images_for_readme/1st-result/target.jpeg)
 
 </details>
 
@@ -71,20 +72,6 @@
 
 </details>
 
-## Run Dockerfile
-
-（12月22日）動きます。NVIDIA RTX Graphics Boardを使用してください。
-
-```bash
-docker build . -t urarachallenge
-docker run --rm \
-	--runtime nvidia \
-	-e DISPLAY=$DISPLAY \
-	-v /tmp/.X11-unix:/tmp/.X11-unix \
-	--mount type=bind,source=$(pwd)/target-dir,target=/workspace/target-dir \
-	yolov4csp /bin/bash ./target-dir/darknet-ros-docker.bash
-```
-
 ## 検出例（画像をクリックでYouTubeのリンクに飛びます）
 
 ### UNLIMITED IMPACT
@@ -106,6 +93,14 @@ docker run --rm \
 ## ウマ娘ごとの検出結果
 
 [urarachallenge_analyzer](GitHub)
+
+![uma-person-rank](images_for_readme/1st-result/uma-person-rank.jpeg)
+
+
+
+![how2detect](images_for_readme/1st-result/how2detect.jpeg)
+
+
 
 
 
