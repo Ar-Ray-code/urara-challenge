@@ -31,35 +31,33 @@
 ## 対象
 
  <details><summary>対象キャラ</summary>
-全て。[動画提供についてはこちらから](https://github.com/Ar-Ray-code/urara-challenge/wiki/動画のレギュレーション)。
+全て。動画提供についてはこちらから→https://github.com/Ar-Ray-code/urara-challenge/wiki/動画のレギュレーション
+
 
 ![target](images_for_readme/1st-result/target.jpeg)
 
 </details>
 
 <details><summary>対象ライブ</summary>
-
-※既に取得済のものにxを付けています
-
-現在、対象ライブを検討中
+Make Debut!，服装　左右キャラ固定
 
 - [x] Make Debut!
-- [x] ENDLESS DREAM!!
-- [x] 彩 Phantasia
-- [x] winnning the soul
-- [x] 本能スピード
-- [x] [UNLIMITED IMPACT](https://www.youtube.com/watch?v=AvsvLLgowQg)
-- [x] NEXT FRONTIER
-- [x] Special Record!
-- [x] [うまぴょい伝説](https://youtu.be/Ol8nYpTHX4c)
-- [x] はじまりのSignal
-- [x] ささやかな祈り
-- [x] 涙ひかって明日になれ！
-- [x] ユメヲカケル！
-- [x] BLAZE
-- [x] Never Looking Back
-- [x] WINnin’5 -ウイニング☆ファイヴ-
-- [x] ぴょいっと♪はれるや！
+- [ ] ENDLESS DREAM!!
+- [ ] 彩 Phantasia
+- [ ] winnning the soul
+- [ ] 本能スピード
+- [ ] [UNLIMITED IMPACT](https://www.youtube.com/watch?v=AvsvLLgowQg)
+- [ ] NEXT FRONTIER
+- [ ] Special Record!
+- [ ] [うまぴょい伝説](https://youtu.be/Ol8nYpTHX4c)
+- [ ] はじまりのSignal
+- [ ] ささやかな祈り
+- [ ] 涙ひかって明日になれ！
+- [ ] ユメヲカケル！
+- [ ] BLAZE
+- [ ] Never Looking Back
+- [ ] WINnin’5 -ウイニング☆ファイヴ-
+- [ ] ぴょいっと♪はれるや！
   
 
 </details>
@@ -101,12 +99,6 @@ GitHub：[urarachallenge_analyzer](https://github.com/Ar-Ray-code/urarachallenge
 ![how2detect](images_for_readme/1st-result/how2detect.jpeg)
 
 
-
-
-
-## 検出結果
-
-- Dockerfileの作成と特定のキャラクター追跡ができ次第取り組みます。2022年以降になりそうです。
 
 ### GradCAM
 
