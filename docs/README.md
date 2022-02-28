@@ -22,17 +22,11 @@
 
 馬と人間の特徴をそれぞれ当てはめるとどう考えても人間要素のほうが強い気がしますが、やっぱり気になってしまうものなので深層学習パワーではっきりと決着をつけることにしました。
 
-すると予想もしない結果が…！
+すると予想もしない結果が出てしまいました。
 
-以下の画像をクリックすると画像元のツイートにアクセスできます↓
-
-[![](https://pbs.twimg.com/media/FF2uUDbaMAI6PLB?format=jpg&name=900x900)](https://twitter.com/Ray255Ar/status/1467521359874260993)
+<!-- [![](https://pbs.twimg.com/media/FF2uUDbaMAI6PLB?format=jpg&name=900x900)](https://twitter.com/Ray255Ar/status/1467521359874260993) -->
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">アニメで見たウマ娘を深層学習に通すとどうなるのかな〜と思ってゲームのチュートリアル画面をdarknetに通してみたら、<br>本当に馬だと判定されてしまい困惑しています🐎 <a href="https://t.co/XVgqo5zD1s">pic.twitter.com/XVgqo5zD1s</a></p>&mdash; Ar-Ray (@Ray255Ar) <a href="https://twitter.com/Ray255Ar/status/1467521359874260993?ref_src=twsrc%5Etfw">December 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-[![urara_challenge](images_for_readme/urara_challenge.png)](https://nico.ms/sm39930385)
-
-↑画像をクリックするとニコニコ動画のURLに飛びます。
 
 ---
 
