@@ -1,5 +1,7 @@
 # urara-challenge（ウララ検出チャレンジ）
-ハルウララ（ウマ娘）のテスト結果とその証拠になるDockerfileです。
+ハルウララ（ウマ娘）のテスト結果です。
+
+[レポートサイト（GitHub Pages）](https://ar-ray-code.github.io/urara-challenge/)
 
 [![urara_challenge](images_for_readme/urara_challenge.png)](https://nico.ms/sm39930385)
 
@@ -108,7 +110,9 @@ yolov5+pytorch-grad-camの組み合わせによる解析結果。以下の画像
 
 ![heatmap06-uma](images_for_readme/heatmap-yolov5/heatmap.png)
 
+## レポート
 
+[検出結果レポート（GitHub Pages）](https://ar-ray-code.github.io/urara-challenge/)を公開しています。
 
 ## 貢献について
 
