@@ -32,13 +32,13 @@
 
 ## 対象
 
- <details><summary>対象キャラ</summary>
+<!--  <details><summary>対象キャラ</summary> -->
 全て。動画提供についてはこちらから→https://github.com/Ar-Ray-code/urara-challenge/wiki/動画のレギュレーション
 
 
 ![target](images_for_readme/1st-result/target.jpeg)
 
-</details>
+<!-- </details> -->
 
 <details><summary>対象ライブ</summary>
 Make Debut!，服装　左右キャラ固定
