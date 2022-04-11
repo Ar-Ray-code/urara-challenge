@@ -71,7 +71,7 @@ Make Debut!，服装　左右キャラ固定
 - [x] 京都 芝 晴れ
 
 </details>
-
+<!-- 
 ## 検出例（画像をクリックでYouTubeのリンクに飛びます）
 
 ### UNLIMITED IMPACT
@@ -87,7 +87,7 @@ Make Debut!，服装　左右キャラ固定
 ### ユメヲカケル!
 
 [![ユメヲカケル!](http://img.youtube.com/vi/DvbPyekjQq8/0.jpg)](https://www.youtube.com/watch?v=DvbPyekjQq8)
-
+ -->
 
 
 ## ウマ娘ごとの検出結果
