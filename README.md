@@ -70,8 +70,9 @@ Make Debut!，服装　左右キャラ固定
 
 - [x] 京都 芝 晴れ
 
+  <!-- 
 </details>
-<!-- 
+
 ## 検出例（画像をクリックでYouTubeのリンクに飛びます）
 
 ### UNLIMITED IMPACT
