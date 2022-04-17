@@ -3,6 +3,8 @@
 
 [レポートサイト（GitHub Pages）](https://ar-ray-code.github.io/urara-challenge/)
 
+[ウララチャレンジ（ゲームの方）](https://github.com/Ar-Ray-code/urara-challenge/wiki/%E3%82%A6%E3%83%A9%E3%83%A9%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B8%E3%81%AE%E9%81%8A%E3%81%B3%E6%96%B9%EF%BC%88%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E6%96%B9%EF%BC%89)
+
 [![urara_challenge](images_for_readme/urara_challenge.png)](https://nico.ms/sm39930385)
 
 ↑画像をクリックするとニコニコ動画のURLに飛びます。
@@ -15,11 +17,11 @@
 
 ## 検証環境
 
-- [darknet-YOLOv4-csp](https://github.com/Ar-Ray-code/darknet/tree/export-video)：改造しているためリンクはAr-Ray-codeのリポジトリに飛びます。
-- [YOLOX-x](https://github.com/Megvii-BaseDetection/YOLOX)
+<!-- - [darknet-YOLOv4-csp](https://github.com/Ar-Ray-code/darknet/tree/export-video)：改造しているためリンクはAr-Ray-codeのリポジトリに飛びます。
+- [YOLOX-x](https://github.com/Megvii-BaseDetection/YOLOX) -->
 - [yolov5](https://github.com/ultralytics/yolov5)
 - ウィニングライブ（対象のキャラクターはセンターであること）
-- レース（対象のキャラクターは1着であること）
+<!-- - レース（対象のキャラクターは1着であること） -->
 
 ## コンピュータ
 
@@ -35,8 +37,23 @@
 <!--  <details><summary>対象キャラ</summary> -->
 全て。動画提供についてはこちらから→https://github.com/Ar-Ray-code/urara-challenge/wiki/動画のレギュレーション
 
-
 ![target](images_for_readme/1st-result/target.jpeg)
+
+<br>
+
+2022年4月追加
+
+- メジロブライト
+- ミホノブルボン
+- マンハッタンカフェ
+- サトノダイヤモンド
+- アグネスデジタル
+- キタサンブラック
+- マチカネタンホイザ
+- ニシノフラワー
+- セイウンスカイ
+
+<br>
 
 <!-- </details> -->
 
@@ -68,9 +85,6 @@ Make Debut!，服装　左右キャラ固定
 
 芝・ダート・右回り・左回りなどの条件を確認中
 
-- [x] 京都 芝 晴れ
-
-
 </details>
 
   <!-- 
@@ -94,15 +108,18 @@ Make Debut!，服装　左右キャラ固定
 
 ## ウマ娘ごとの検出結果
 
-GitHub：[urarachallenge_analyzer](https://github.com/Ar-Ray-code/urarachallenge_analyzer)
-
 ![uma-person-rank](images_for_readme/1st-result/uma-person-rank.jpeg)
 
+### 2022年4月
 
+- メジロブライトが馬率2位
+- サトノダイヤモンドが馬率2位
+
+### 検出方法
+
+使用したプログラム（GitHub）：[urarachallenge_analyzer](https://github.com/Ar-Ray-code/urarachallenge_analyzer)
 
 ![how2detect](images_for_readme/1st-result/how2detect.jpeg)
-
-
 
 ### GradCAM
 
@@ -127,15 +144,7 @@ yolov5+pytorch-grad-camの組み合わせによる解析結果。以下の画像
 
 ## 追加予定
 
-- マンハッタンカフェ
-- キタサンブラック
-- ミホノブルボン
-- アグネスデジタル
-- セイウンスカイ
-- ニシノフラワー
-- タマモクロス
-- マチカネタンホイザ
-- メジロブライト
+- 当り次第追加します。
 
 ## 貢献について
 
