@@ -3,7 +3,7 @@
 
 [レポートサイト（GitHub Pages）](https://ar-ray-code.github.io/urara-challenge/)
 
-[ウララチャレンジ（ゲームの方）](https://github.com/Ar-Ray-code/urara-challenge/wiki/%E3%82%A6%E3%83%A9%E3%83%A9%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B8%E3%81%AE%E9%81%8A%E3%81%B3%E6%96%B9%EF%BC%88%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E6%96%B9%EF%BC%89)
+<!-- [ウララチャレンジ（ゲームの方）](https://github.com/Ar-Ray-code/urara-challenge/wiki/%E3%82%A6%E3%83%A9%E3%83%A9%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B8%E3%81%AE%E9%81%8A%E3%81%B3%E6%96%B9%EF%BC%88%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E6%96%B9%EF%BC%89) -->
 
 [![urara_challenge](images_for_readme/urara_challenge.png)](https://nico.ms/sm39930385)
 
@@ -35,7 +35,7 @@
 ## 対象
 
 <!--  <details><summary>対象キャラ</summary> -->
-全て。動画提供についてはこちらから→https://github.com/Ar-Ray-code/urara-challenge/wiki/動画のレギュレーション
+全て。
 
 ![target](images_for_readme/1st-result/target.jpeg)
 
@@ -61,22 +61,6 @@
 Make Debut!，服装　左右キャラ固定
 
 - [x] Make Debut!
-- [ ] ENDLESS DREAM!!
-- [ ] 彩 Phantasia
-- [ ] winnning the soul
-- [ ] 本能スピード
-- [ ] [UNLIMITED IMPACT](https://www.youtube.com/watch?v=AvsvLLgowQg)
-- [ ] NEXT FRONTIER
-- [ ] Special Record!
-- [ ] [うまぴょい伝説](https://youtu.be/Ol8nYpTHX4c)
-- [ ] はじまりのSignal
-- [ ] ささやかな祈り
-- [ ] 涙ひかって明日になれ！
-- [ ] ユメヲカケル！
-- [ ] BLAZE
-- [ ] Never Looking Back
-- [ ] WINnin’5 -ウイニング☆ファイヴ-
-- [ ] ぴょいっと♪はれるや！
   
 
 </details>
@@ -144,13 +128,13 @@ yolov5+pytorch-grad-camの組み合わせによる解析結果。以下の画像
 
 ## 追加予定
 
-- 当り次第追加します。
+- 当たり次第追加します。
 
 ## 貢献について
 
 気になる箇所やモデルについての検証結果やリクエストなどがあれば歓迎します。
 
-issue欄や[Twitter](https://twitter.com/Ray255Ar)などで教えてください。
+issue欄で教えてください。
 
 ## ライセンス
 
